@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+   <children>
+      <JFXButton fx:id="loginButton" buttonType="RAISED" layoutX="82.0" layoutY="286.0" onAction="#makeLogin" prefHeight="49.0" prefWidth="117.0" ripplerFill="WHITE" style="-fx-background-color: #00b0ff;" text="Login" textFill="WHITE" />
+      <JFXButton fx:id="sighinButton" buttonType="RAISED" layoutX="386.0" layoutY="286.0" onAction="#makeSignIn" prefHeight="49.0" prefWidth="117.0" style="-fx-background-color: #00b0ff;" text="Sign In" textFill="WHITE" />
+      <JFXTextField fx:id="txtLoginUsername" focusColor="#39a6f8" layoutX="84.0" layoutY="85.0" prefHeight="57.0" prefWidth="417.0" promptText="Username" />
+      <JFXPasswordField fx:id="txtLoginPassword" focusColor="#45d0ff" layoutX="84.0" layoutY="172.0" prefHeight="57.0" prefWidth="417.0" promptText="Password" />
+      <Label fx:id="lblMessage" layoutX="80.0" layoutY="54.0" prefHeight="21.0" prefWidth="423.0" />
+   </children>
+</AnchorPane>

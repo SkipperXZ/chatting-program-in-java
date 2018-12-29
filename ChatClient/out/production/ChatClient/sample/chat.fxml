@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ChatApp">
+   <children>
+      <JFXButton fx:id="sendButton" buttonType="RAISED" layoutX="460.0" layoutY="326.0" onAction="#makeSend" prefHeight="59.0" prefWidth="123.0" style="-fx-background-color:  #00b0ff;" text="Send" />
+      <JFXTextArea fx:id="messageArea" layoutX="26.0" layoutY="36.0" prefHeight="260.0" prefWidth="549.0" />
+      <JFXTextField fx:id="messageBox" layoutX="26.0" layoutY="326.0" prefHeight="53.0" prefWidth="411.0" />
+   </children>
+</AnchorPane>

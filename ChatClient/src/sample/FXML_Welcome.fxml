@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="lblWelcomeMessage" layoutX="72.0" layoutY="80.0" prefHeight="91.0" prefWidth="429.0" textAlignment="JUSTIFY">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="logoutButton" buttonType="RAISED" layoutX="242.0" layoutY="284.0" onAction="#makeLogout" prefHeight="49.0" prefWidth="117.0" ripplerFill="WHITE" style="-fx-background-color: #00b0ff;" text="Log out" textFill="WHITE" />
+   </children>
+</AnchorPane>

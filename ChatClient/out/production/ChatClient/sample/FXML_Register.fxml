@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="444.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXPasswordField fx:id="registerPassword" focusColor="#15b9ff" layoutX="55.0" layoutY="164.0" prefHeight="27.0" prefWidth="335.0" promptText="Password" />
+      <JFXPasswordField fx:id="registerComfirmPassword" focusColor="#36bcff" layoutX="53.0" layoutY="234.0" prefHeight="33.0" prefWidth="335.0" promptText="Comfirm Password" />
+      <JFXTextField fx:id="registerUsername" focusColor="#1c8cfc" layoutX="53.0" layoutY="83.0" prefHeight="33.0" prefWidth="335.0" promptText="Username" />
+      <JFXButton fx:id="registerButton" buttonType="RAISED" layoutX="156.0" layoutY="320.0" onAction="#makeRegister" prefHeight="53.0" prefWidth="129.0" ripplerFill="WHITE" style="-fx-background-color: #00b0ff;" text="Sign In" textFill="WHITE" />
+   </children>
+</AnchorPane>
